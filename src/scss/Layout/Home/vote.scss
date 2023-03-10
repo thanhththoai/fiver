@@ -1,0 +1,13 @@
+.vote-box{
+    padding: 0 64px;
+}
+.vote-box-heading{
+    @include txtStyle($color-t,$fs-4,$fw-3)
+}
+.vote-box-quote{
+    @include txtStyle($color-q,$fs-3,$fw-0);
+    line-height: 48px;
+}
+.vote-box-img{
+    width: 20%;
+}

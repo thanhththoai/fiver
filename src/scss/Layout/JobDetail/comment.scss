@@ -1,0 +1,6 @@
+.comment-country{
+    @include txtStyle($color-t,$fs-2,$fw-3)
+}
+.comment-content{
+    @include txtStyle($color-b,$fs-2,$fw-0)
+}

@@ -1,0 +1,55 @@
+.bookingJob-heading {
+  background: #fafafa;
+  justify-content: space-between;
+}
+.bookingJob-btn {
+  position: relative;
+  padding: 20px;
+  &::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: $bg-1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 4px;
+    @include trans;
+  }
+  &:hover::after {
+    width: 100%;
+    transform: translate();
+    @include trans;
+  }
+}
+.bookingJob-content{
+    height: 430px;
+}
+.bookingJob-content-price{
+    @include txtStyle($color-b,$fs-8,$fw-2)
+}
+.bookingJob-content-discount{
+    @include txtStyle($color-t,$fs-2,$fw-1)
+}
+.bookingJob-content-feature{
+    @include txtStyle($color-0,$fs-2,$fw-0)
+}
+.bookingJob-content-btn{
+    width: 100%;
+    border-radius: 4px;
+    @include trans;
+    @include btnStyle($bg-1,12px,10px,$color-w);
+    &:hover{
+        opacity: 0.8;
+        @include trans
+    }
+}
+.bookingJob-btn-sub{
+    width: 100%;
+    border-radius: 4px;
+    @include btnStyle('transparent',10px,10px,$bg-1)
+}
+
+.bookingJob-content-item{
+  width: 100%;
+}

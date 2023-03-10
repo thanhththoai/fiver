@@ -1,0 +1,38 @@
+.listJob-heading {
+  @include txtStyle($color-b, $fs-1, $fw-0);
+  &:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+.listJob-subHeading {
+  @include txtStyle($color-t, $fs-2, $fw-3);
+}
+.listJob-jobName {
+  @include txtStyle($color-t, $fs-2, $fw-0);
+  height: 44px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+  text-align: start;
+  line-height: 20px
+}
+.listJob-rate {
+  @include txtStyle($color-2, $fs-1, $fw-0);
+}
+.listJob-heard {
+  @include txtStyle($color-ft, $fs-1, $fw-0);
+}
+.listJob-price {
+  @include txtStyle($color-t, $fs-6, $fw-2);
+  &:hover{
+    cursor: pointer;
+  }
+}
+.listJob-prices {
+  @include txtStyle($color-t, $fs-5, $fw-3);
+}
+.listJob-main:hover .listJob-jobName {
+  @include txtHover($bg-1);
+}

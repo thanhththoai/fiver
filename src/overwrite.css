@@ -1,0 +1,50 @@
+.ant-layout{
+  background: #ffffff;
+}
+.ant-layout-header {
+  height: 138px;
+  line-height: 24px;
+  background: transparent;
+  color: #ffffff;
+  padding: 0;
+}
+.ant-layout-footer{
+  padding: 32px 32px;
+    color: rgba(0,0,0,.85);
+    font-size: 14px;
+    background: #f0f2f5;
+}
+
+.ant-picker-suffix{
+  color:#faad14
+}
+.ant-picker-clear{
+  background:#ffffff;
+  color: #faad14;
+}
+.ant-picker-input>input{
+  color: rgba(255, 255, 255, 0.8) ;
+}
+/* React bootstrap */
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+  display: none;
+}
+
+.form-control{
+  border-radius: 0px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+/* React slick */
+.slick-prev:before,.slick-next{
+  display: none !important;
+}
+.slick-prev:before,.slick-next:before{
+  color: #faad14 !important;
+  font-size: 24px !important;
+}
+
+

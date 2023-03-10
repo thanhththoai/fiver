@@ -1,0 +1,14 @@
+.infoJob-main{
+    @include txtStyle($color-t,$fs-2,$fw-0);
+    &:hover a{
+        text-decoration: underline;
+        cursor: pointer;
+        color: $bg-1;
+    }
+}
+.infoJob-heading{
+    @include txtStyle($color-b,$fs-3,$fw-1)
+}
+.infoJob-switch{
+    @include txtStyle($color-t,$fs-2,$fw-0)
+}

@@ -1,0 +1,33 @@
+.typeJob-hd{
+    @include txtStyle($color-b,$fs-3,$fw-0);
+    text-align: center;
+}
+.typeJob-subhd{
+    @include txtStyle($color-b,$fs-5,$fw-0);
+    text-align: center;
+}
+.typeJob-btn{
+    @include txtStyle($color-b,$fs-5,$fw-2);
+}
+.typeJob-sub-2{
+    @include txtStyle($color-t,$fs-2,$fw-0);
+    &:hover{
+        @include txtHover($bg-1);
+    }
+}
+.typeJob-services{
+    @include txtStyle($color-t,$fs-2,$fw-0);
+    background: #efeff0;
+    padding: 6px 12px;
+    border-radius: 16px;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.typeJob-guild-btn:hover{
+    text-decoration: underline;
+}
+.typeJob-guild-img:hover{
+    filter: contrast(80%);
+    @include trans
+}

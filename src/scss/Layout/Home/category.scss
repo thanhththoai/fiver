@@ -1,0 +1,12 @@
+.category-heading{
+    @include txtStyle($color-t,$fs-3,$fw-2)
+}
+
+.category-slider-item{
+    height: 345px;
+}
+
+.category-slider-title{
+    padding: 16px 16px 16px 32px;
+}
+
